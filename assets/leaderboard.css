@@ -3,8 +3,8 @@ html {
     --black: #000000 !important;
     --white: #ffffff !important;
     --darkest: #101010 !important;
-    --strikecolor: #543bc3 !important;
-    --strikecolor2: #252364 !important;
+    --strikecolor: #5B67AD !important;
+    --strikecolor2: #222165 !important;
 
     --darker: #050d24 !important;
     --dark: #A3AFBF !important;
@@ -12,7 +12,7 @@ html {
     --light: #CAD4E1 !important;
     --lighter: #F5F8FC !important;
     --lightest: var(--white) !important;
-    --primary: #f79818 !important;
+    --primary: #F28F22 !important;
     --primary-light: #DDD9FF !important;
 --primary-trans:  #ffffff !important;
     --yellow: #FDCB6E !important;
