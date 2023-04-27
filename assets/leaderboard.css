@@ -9,9 +9,9 @@ html {
     --light: #CAD4E1 !important;
     --lighter: #F5F8FC !important;
     --lightest: var(--white) !important;
-    --primary: #7B16FF !important;
+    --primary: #f79818 !important;
     --primary-light: #DDD9FF !important;
-    --primary-trans: rgba(123, 22, 255, 0.4) !important;
+--primary-trans: rgb(255, 255, 255) !important;
     --yellow: #FDCB6E !important;
     --orange: #E17055 !important;
     --teal: #00CEC9 !important;
