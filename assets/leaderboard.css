@@ -3,6 +3,9 @@ html {
     --black: #000000 !important;
     --white: #ffffff !important;
     --darkest: #101010 !important;
+    --strikecolor: #543bc3 !important;
+    --strikecolor2: #252364 !important;
+
     --darker: #16171A !important;
     --dark: #A3AFBF !important;
     --medium: #DFE7EF !important;
@@ -11,7 +14,7 @@ html {
     --lightest: var(--white) !important;
     --primary: #f79818 !important;
     --primary-light: #DDD9FF !important;
---primary-trans: rgb(255, 255, 255) !important;
+--primary-trans:  #ffffff !important;
     --yellow: #FDCB6E !important;
     --orange: #E17055 !important;
     --teal: #00CEC9 !important;
@@ -38,13 +41,13 @@ body {
 }
 
 body {
-    background: var(--bg);
+    background: var(--strikecolor2);
     color: var(--color);
     font-size: 1.6rem;
     font-family: "Overpass Mono", system-ui;
 }
 
-h1,
+h1,€€
 h2,
 h3,
 h4,
