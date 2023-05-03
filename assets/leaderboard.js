@@ -181,7 +181,7 @@ var processRank = (rank) => {
         contentRow += '                src="'+avatar+'">';
         contentRow += '            <div class="c-media__content">';
         contentRow += '                <div class="c-media__title">'+name+'</div>';
-        contentRow += '                <a class="c-media__link u-text--small" href="https://twitter.com/'+twitter+'"';
+        contentRow += '                <a class="c-media__link u-text--small"';
         contentRow += '                    target="_blank">@'+twitter+'</a>';
         contentRow += '            </div>';
         contentRow += '        </div>';
