@@ -1,28 +1,20 @@
 {
     "data": [
         {
-            "avatar": "assets/profiles/egarcia.png",
-            "name": "Eduardo Garcia",
-            "twitter": "egarcia",
-            "reports": 0,
-            "bounties": 0,
-            "reputation": 0
-        },
-        {
-            "avatar": "assets/profiles/striker.webp",
-            "name": "Lautaro Colombo",
-            "twitter": "lcolombo",
-            "reports": 0,
-            "bounties": 0,
-            "reputation": 0
-        },
-        {
             "avatar": "assets/profiles/striker.webp",
             "name": "Nimit Jain",
             "twitter": "nimit",
             "reports": 2,
             "bounties": 100,
             "reputation": 300
+        },
+        {
+            "avatar": "assets/profiles/lemonoftroy.png",
+            "name": "Adrián Pedrazzoli",
+            "twitter": "lemonoftroy",
+            "reports": 8,
+            "bounties": 0,
+            "reputation": 0
         },
         {
             "avatar": "assets/profiles/striker.webp",
@@ -37,14 +29,6 @@
             "name": "Luis Lopez",
             "twitter": "luisk2",
             "reports": 0,
-            "bounties": 0,
-            "reputation": 0
-        },
-        {
-            "avatar": "assets/profiles/lemonoftroy.png",
-            "name": "Adrián Pedrazzoli",
-            "twitter": "lemonoftroy",
-            "reports": 8,
             "bounties": 0,
             "reputation": 0
         },
@@ -76,6 +60,22 @@
             "avatar": "assets/profiles/devansh.png",
             "name": "Devansh Bordia",
             "twitter": "devansh_bordia",
+            "reports": 0,
+            "bounties": 0,
+            "reputation": 0
+        },
+        {
+            "avatar": "assets/profiles/egarcia.png",
+            "name": "Eduardo Garcia",
+            "twitter": "egarcia",
+            "reports": 0,
+            "bounties": 0,
+            "reputation": 0
+        },
+        {
+            "avatar": "assets/profiles/striker.webp",
+            "name": "Lautaro Colombo",
+            "twitter": "lcolombo",
             "reports": 0,
             "bounties": 0,
             "reputation": 0
