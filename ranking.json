@@ -4,17 +4,17 @@
             "avatar": "assets/profiles/striker.webp",
             "name": "Nimit Jain",
             "twitter": "nimit",
-            "reports": 2,
-            "bounties": 100,
-            "reputation": 300
+            "reports": 5,
+            "bounties": 150,
+            "reputation": 500
         },
         {
             "avatar": "assets/profiles/lemonoftroy.png",
             "name": "Adrián Pedrazzoli",
             "twitter": "lemonoftroy",
-            "reports": 8,
-            "bounties": 0,
-            "reputation": 0
+            "reports": 11,
+            "bounties": 200,
+            "reputation": 630
         },
         {
             "avatar": "assets/profiles/striker.webp",
@@ -22,7 +22,7 @@
             "twitter": "yatinsirpaul",
             "reports": 2,
             "bounties": 0,
-            "reputation": 0
+            "reputation": 10
         },
         {
             "avatar": "assets/profiles/luisk2.png",
