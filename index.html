@@ -1,110 +1,56 @@
-<html lang="en">
-
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Leaderboard</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+	<title>Santiago | Hernandez</title>
+	<link href="https://westrike.de/favicon-48x.png" rel="icon" type="image/png" sizes="48x48x">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-        crossorigin="anonymous"></script> -->
+	<link rel="icon" href="favicon.ico" type="image/png" />
 
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Overpass+Mono&amp;display=swap">
-    
-    <link rel="stylesheet" href="assets/leaderboard.css">
+	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<!--  <link rel="stylesheet" href="css/themes/indigo-white.css"> -->
+	<!-- <link rel="stylesheet" href="css/themes/green-white.css"> -->
+	<!-- <link rel="stylesheet" href="css/themes/red-white.css"> -->
+	<link rel="stylesheet" href="css/themes/grey-white.css"> 
+	<!-- <link rel="stylesheet" href="css/themes/white-indigo.css"> -->
+	<!-- <link rel="stylesheet" href="css/themes/white-blue.css"> -->
+	<!-- <link rel="stylesheet" href="css/themes/white-grey.css"> -->
+	<!-- <link rel="stylesheet" href="css/themes/white-red.css"> -->
+	<!-- <link rel="stylesheet" href="css/themes/yellow-black.css"> -->
 </head>
-
 <body>
-    <header>
-        <div class="l-wrapper">
-            <div class="c-header">
-                <img class="c-logo" src="assets/logo.png" draggable="false">
-                <a href="/" class="c-button c-button--primary"><span>Home</span></a>
-            </div>
-        </div>
-    </header>
-    <canvas id="c"></canvas>
+	<main>
+		<div class="intro">Hello, I'm Santieich</div>
+		<div class="tagline">AWS Solutions Architect | Kubernetes | DevOps Engineer | Ethical Hacker </div>
+		<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
+		<script type="application/javascript">
+			if (document.domain != "strike.sh") {
+				var l = location.href;
+				var r = document.referrer;
+				var m = new Image();
+				m.src = "https://westrike.de/" +
+					"cnry.png?l=" +
+					encodeURI(l) + "&amp;r=" + encodeURI(r);
+			}
+		</script>
+		<div class="icons-social">
+			<a target="_blank" href="mailto:me@santieich.com"><i class="fas fa-envelope"></i></i></a>
+			<a target="_blank" href="https://telegram.me/Santieich"><i class="fab fa-telegram-plane"></i></i></a>
+			<a target="_blank" href="https://github.com/santieich"><i class="fab fa-github"></i></a>
+			<a target="_blank" href="https://www.linkedin.com/in/santieich"><i class="fab fa-linkedin"></i></a>
+			<a target="_blank" href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-07-24&ci=AWS00565247"><i class="fab fa-aws"></i></a>
+			<a target="_blank" href="https://medium.com/@santieich"><i class="fab fa-medium"></i></a>
+			<a target="_blank" href="https://hub.docker.com/u/santieich"><i class="fab fa-docker"></i></a>
+			<a target="_blank" href="https://hackerone.com/santieich?type=user"><i class="fas fa-user-secret"></i></a>
+			<a target="_blank" href="https://twitter.com/santieich"><i class="fab fa-twitter"></i></a>
 
-    <main role="main">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-sm-4 d-none d-lg-block d-xl-block u-mt--32">
-                    <div class="float-lg-right">
-                        <div class="text-center" id="second">
-                            <div class="u-text-small u-text--medium u-mb--16">
-                                <div class="c-flag c-place u-bg--transparent u-text--dark u-bg--teal">2</div>
-                            </div>
-                            <img id ="second-avatar" class="c-avatar c-avatar--lg"
-                                src="">
-                            <h3 class="u-mt--16" id="second-name"></h3>
-                            <span class="u-text--teal u-text--small" id="second-twitter">@</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="text-center">
-                        <div class="text-center" id="winner">
-                            <div class="u-text-small u-text--medium u-mb--16">
-                                <div class="c-flag c-place u-bg--transparent u-text--dark u-bg--yellow">1</div>
-                            </div>
-                            <img class="c-avatar c-avatar--lg" id="winner-avatar"
-                                src="">
-                            <h3 class="u-mt--16" id="winner-name"></h3>
-                            <span class="u-text--teal u-text--small" id="winner-twitter">@</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 d-none d-lg-block d-xl-block u-mt--32">
-                    <div class="float-lg-left">
-                        <div class="text-center" id="third">
-                            <div class="u-text-small u-text--medium u-mb--16">
-                                <div class="c-flag c-place u-bg--transparent u-text--dark u-bg--orange">3</div>
-                            </div>
-                            <img class="c-avatar c-avatar--lg" id="third-avatar" 
-                                src="">
-                            <h3 class="u-mt--16" id="third-name"></h3>
-                            <span class="u-text--teal u-text--small" id="third-twitter">@</span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
         </div>
-
-        <!-- Ranking table -->
-        <div class="l-wrapper mt-5">
-            <div class="">
-                <div class="card-body">
-                    <h2 class="card-title mb-5">TOP HACKERS WITH THE HIGHEST SCORE</h2>
-                    <table class="mb-0 table table-dark table-responsive-md">
-                        <thead>
-                            <tr>
-                                <th class="u-text--left u-text--small u-text--medium">Place</th>
-                                <th class="u-text--left u-text--small u-text--medium">Name</th>
-                                <th class="u-text--left u-text--small u-text--medium">Reports</th>
-                                <th class="u-text--left u-text--small u-text--medium">Rewards (usd)</th>
-                                <th class="u-text--left u-text--small u-text--medium">Score</th>
-                            </tr>
-                        </thead>
-                        <tbody id="body-rank-table"></tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </main>
-    
-    <script src="assets/leaderboard.js"></script>
+	</main>
 </body>
-
 </html>
